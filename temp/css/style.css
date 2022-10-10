@@ -1,0 +1,466 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        .continer {
+            background-color: #F5F7F8;
+            width: 1440px;
+        }
+        /*-------------------------------------- Start Header ------------------------------------------*/
+        
+        .continer .header {
+            position: fixed;
+            background-color: #59405c;
+            width: 100%;
+            float: left;
+            overflow: hidden;
+            margin: 0 0 40px 0;
+        }
+        
+        .continer .header .heder-photo {
+            float: right;
+            display: block;
+            overflow: hidden;
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+        }
+        
+        .continer .header .heder-photo a {
+            float: left;
+            width: 100%;
+            width: 50px;
+            height: 50px;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+        
+        .continer .header .heder-photo a:hover {
+            color: #fff;
+            opacity: 0.5;
+        }
+        
+        .continer .header .heder-photo a img {
+            float: right;
+            width: 100%;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+        
+        .continer .header .header-btn ul li {
+            display: block;
+            list-style: none;
+            text-decoration: none;
+            float: left;
+            font-size: 20px;
+            margin-right: 20px;
+            display: block;
+        }
+        
+        .continer .header .header-btn ul li a {
+            text-decoration: none;
+            color: #fff;
+            padding: 15px 20px;
+            display: block;
+            overflow: hidden;
+        }
+        
+        .continer .header .header-btn ul li a:hover {
+            background-color: #fff;
+            color: #000;
+        }
+        /*-------------------------------------- End Header ------------------------------------------*/
+        /*-------------------------------------- Start My Profile ------------------------------------------*/
+        
+        .continer .profile {
+            float: left;
+            margin: 80px 20px 0px;
+            background-color: #F5F7F8;
+            overflow: hidden;
+            display: block;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        
+        .continer .profile .profile-content {
+            background-color: #fff;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            width: 300px;
+            overflow: hidden;
+            margin: auto;
+        }
+        
+        .continer .profile .profile-content h2 {
+            text-align: center;
+            text-transform: capitalize;
+            font-weight: lighter;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .continer .profile .profile-content .profile-content-img {
+            border-bottom: solid 2px rgb(100, 100, 100);
+            margin: 0 auto 30px;
+            padding-top: 10px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        
+        .continer .profile .profile-content .profile-content-img img {
+            margin: auto;
+            overflow: hidden;
+            display: block;
+            width: 100%;
+            border-radius: 100%;
+        }
+        
+        .continer .profile .profile-content .profile-content-info {
+            border-top: solid 1px #eee;
+            text-align: left;
+            overflow: hidden;
+            display: block;
+        }
+        
+        .continer .profile .profile-content .profile-content-info ul li i {
+            color: #59405c;
+            padding: 0 15px;
+        }
+        
+        .continer .profile .profile-content .profile-content-info ul li {
+            list-style: none;
+            margin: 15px 0 15px 0;
+        }
+        
+        .continer .profile .notifications {
+            margin-top: 10px;
+            color: #fff;
+            padding: 10px;
+            background-color: #59405c;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        
+        .continer .profile .notifications>div {
+            display: block;
+            width: 100%;
+        }
+        
+        .continer .profile .notifications>div:hover {
+            background-color: #ccc;
+            color: #000;
+            display: block;
+            overflow: auto;
+        }
+        
+        .continer .profile .notifications>div h4 {
+            margin: 10px;
+            font-weight: lighter;
+        }
+        
+        .continer .profile .notifications>div h4 i {
+            margin: 0 10px;
+        }
+        
+        .continer .profile .interests {
+            width: 300px;
+            margin-top: 10px;
+            color: #59405c;
+            display: block;
+            background-color: #fff;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        
+        .continer .profile .interests h4 {
+            margin: 10px 10px;
+        }
+        
+        .continer .profile .interests span {
+            font-size: 12px;
+            padding: 5px 10px;
+            margin: 5px 5px;
+            display: inline-block;
+            font-weight: lighter;
+            background-color: #59405c;
+            color: #fff;
+        }
+        /*-------------------------------------- End My Profile ------------------------------------------*/
+        /*--------------------------------------Start Posts ----------------------------------------------*/
+        
+        .continer .posts {
+            float: left;
+            width: 50%;
+            margin: 80px 20px 80px 0;
+            background-color: #fff;
+        }
+        
+        .continer .posts .type-posts {
+            padding: 15px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        
+        .continer .posts .type-posts h4 {
+            font-weight: lighter;
+            text-align: left;
+            font-size: 19px;
+            color: dimgray;
+            margin: 10px;
+        }
+        
+        .continer .posts .type-posts input[type="text"] {
+            width: 90%;
+            display: inline-block;
+            font-size: 20px;
+            font-weight: lighter;
+            padding: 10px 10px 10px 10px;
+            margin: 10px;
+        }
+        
+        .continer .posts .type-posts button {
+            display: block;
+            padding: 10px 20px 10px 15px;
+            margin: 10px;
+            font-size: 15px;
+            text-transform: capitalize;
+            cursor: pointer;
+            border: 0px;
+            background-color: #59405c;
+            color: #fff;
+        }
+        
+        .continer .posts .type-posts button:hover {
+            background-color: darkgrey;
+        }
+        
+        .continer .posts .type-posts button i {
+            padding: 0 10px 0 0;
+            cursor: pointer;
+        }
+        
+        .continer .posts .read-posts {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 0;
+            background-color: #fff;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        
+        .continer .posts .read-posts .title-read-posts {
+            margin: 10px 0;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.12);
+            overflow: hidden;
+            display: block;
+        }
+        
+        .continer .posts .read-posts .title-read-posts>img {
+            width: 70px;
+            margin: 20px;
+            border-radius: 100%;
+            vertical-align: middle;
+        }
+        
+        .continer .posts .read-posts .title-read-posts h4 {
+            display: inline;
+            overflow: hidden;
+            vertical-align: middle;
+        }
+        
+        .continer .posts .read-posts .title-read-posts span {
+            opacity: 0.5;
+            float: right;
+            margin: 15px;
+            text-align: right;
+            display: block;
+        }
+        
+        .continer .posts .read-posts .title-read-posts hr {
+            opacity: 0.2;
+            color: darkgrey;
+        }
+        
+        .continer .posts .read-posts .title-read-posts .body-read-posts {
+            display: block;
+            width: 100%;
+        }
+        
+        .continer .posts .read-posts .title-read-posts .body-read-posts p {
+            margin: 10px;
+            line-height: 20px;
+            opacity: 0.9;
+            float: left;
+            display: block;
+        }
+        
+        .continer .posts .read-posts .title-read-posts .body-read-posts>div {
+            width: 100%;
+            display: block;
+            float: left;
+        }
+        
+        .continer .posts .read-posts .title-read-posts .body-read-posts>div>img {
+            margin: 10px;
+            float: left;
+            height: 300px;
+            width: 46.7%;
+            overflow: hidden;
+            display: block;
+        }
+        
+        .continer .posts .read-posts .title-read-posts .body-read-posts>div>img .continer .posts .read-posts .title-read-posts .body-read-posts div {
+            display: block;
+            float: left;
+        }
+        
+        .continer .posts .read-posts .title-read-posts .body-read-posts div>button {
+            border: 0px;
+            overflow: hidden;
+            background-color: #59405c;
+            color: #ccc;
+            float: left;
+            padding: 5px;
+            margin: 10px;
+            cursor: pointer;
+            display: block;
+            font-size: 13px;
+        }
+        
+        .continer .posts .read-posts .title-read-posts .body-read-posts div>button:hover {
+            background-color: #ccc;
+            color: #000;
+        }
+        
+        .continer .posts .read-posts .title-read-posts .body-read-posts div>button>i {
+            margin: 5px;
+        }
+        
+        .continer .posts .read-posts .title-read-posts .body-read-posts>div>.img-full {
+            padding: auto;
+            margin: 0 auto;
+            width: 100%;
+            display: block;
+        }
+        /*--------------------------------------End Posts ----------------------------------------------*/
+        
+        .continer .request-events {
+            float: left;
+            width: 19.5%;
+            display: inline-block;
+            margin: 80px 20px 10px 0;
+            background-color: #fff;
+        }
+        
+        .continer .request-events .events,
+        .continer .request-events .request {
+            width: 100%;
+            display: block;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        
+        .continer .request-events .events h5,
+        .continer .request-events .events p,
+        .continer .request-events .request h5 {
+            padding: 10px;
+            font-weight: lighter;
+            font-size: 15px;
+        }
+        
+        .continer .request-events .events img {
+            width: 80%;
+        }
+        
+        .continer .request-events .events span {
+            padding: 10px;
+            display: block;
+            font-weight: bold;
+        }
+        
+        .continer .request-events .events a {
+            background-color: #5a4564;
+            color: #fff;
+            padding: 10px;
+            width: 80%;
+            margin: 20px auto;
+            text-decoration: none;
+            display: block;
+        }
+        
+        .continer .request-events .events a:hover {
+            background-color: #ccc;
+            color: #000;
+        }
+        
+        .continer .request-events .request {
+            margin-top: 10px;
+        }
+        
+        .continer .request-events .request img {
+            width: 50%;
+            overflow: hidden;
+        }
+        
+        .continer .request-events .request .ad-re-request {
+            width: 100%;
+        }
+        
+        .continer .request-events .request .ad-re-request button {
+            width: 45%;
+            font-size: large;
+            padding: 7px;
+            margin: 20px 0;
+            border: 0;
+            cursor: pointer;
+            color: #fff;
+        }
+        
+        .continer .request-events .request .ad-re-request button:hover {
+            background-color: #ccc;
+        }
+        
+        .continer .request-events .request .ad-re-request .ac {
+            background-color: #4CAF50;
+        }
+        
+        .continer .request-events .request .ad-re-request .re {
+            background-color: #f44336;
+        }
+        
+        .continer .ads {
+            width: 18.2%;
+            float: left;
+            display: block;
+            background-color: #fff;
+            float: left;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        
+        .continer .ads {
+            padding: 40px 10px;
+            font-weight: bolder;
+            font-size: 15px;
+        }
+        
+        .continer .virus {
+            font-size: xx-large;
+            margin-top: 20px;
+            padding: 40px 10px;
+            width: 18.2%;
+            float: left;
+            display: block;
+            background-color: #fff;
+            float: left;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0px 10px 0 rgba(0, 0, 0, 0.12);
+        }
+        
+        footer {
+            width: 100%;
+            float: left;
+            background-color: #59405c;
+            padding: 20px;
+            color: #ccc;
+            text-align: center;
+        }
